@@ -1,0 +1,28 @@
+/* linear-gradient(red, orange, yellow, green, blue); */
+body {
+  text-align: center;
+  color: rgb(0, 0, 0, .5);
+  font: bold 25px Century Gothic, Arial;
+  background: linear-gradient(to right, red, yellow);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  font-size: 70px;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #FFFFFF;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+hr {
+  border-top: 1px dashed black;
+  background-color: transparent;
+  border-bottom: 0;
+}
